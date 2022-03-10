@@ -1,3 +1,27 @@
 <resources>
-    <string name="app_name">SelectionActivity</string>
+    <string name="app_name">Fruits Image Viewer App</string>
+    <string-array name="Fruits">
+        <item>watermelon</item>
+        <item>dragonfruit</item>
+        <item>orange</item>
+        <item>grapefruit</item>
+        <item>kiwi</item>
+        <item>coconut</item>
+        <item>strawberry</item>
+        <item>grape</item>
+        <item>pineapple</item>
+        <item>banana</item>
+    </string-array>
+    <string-array name="descriptions">
+        <item>The best fruit.</item>
+        <item>Second best fruit.</item>
+        <item>Third best fruit.</item>
+        <item>Fourth best fruit.</item>
+        <item>Fifth best fruit.</item>
+        <item>Sixth best fruit.</item>
+        <item>Seventh best fruit.</item>
+        <item>Eighth best fruit.</item>
+        <item>Ninth best fruit.</item>
+        <item>Tenth best fruit.</item>
+    </string-array>
 </resources>
