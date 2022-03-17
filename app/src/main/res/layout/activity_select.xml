@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".SelectActivity">
 
+
     <TextView
         android:id="@+id/textViewHint"
         android:layout_width="wrap_content"
@@ -40,9 +41,11 @@
         app:layout_constraintHorizontal_bias="0.581"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.979">
+        app:layout_constraintVertical_bias="0.979"
+        tools:ignore="UnknownId">
 
     </androidx.recyclerview.widget.RecyclerView>
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -24,6 +24,7 @@ class SelectActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.`activity_select`)
+        val myArray = this.resources.getStringArray(R.array.descriptions)
         val txtHint = findViewById<TextView>(R.id.textViewHint)
         txtHint.text = resources.getString(R.string.hint)
         var names = resources.getStringArray(R.array.Fruits);
