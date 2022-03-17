@@ -22,9 +22,10 @@ val images: IntArray = intArrayOf(
 )
 class SelectActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
-        supportActionBar?.title = "Selector"
         super.onCreate(savedInstanceState)
         setContentView(R.layout.`activity_select`)
+        val txtHint = findViewById<TextView>(R.id.textViewHint)
+        txtHint.text = resources.getString(R.string.hint)
         var names = resources.getStringArray(R.array.Fruits);
         var descriptions = resources.getStringArray(R.array.descriptions);
         var items: ArrayList<ImageObject> = ArrayList()

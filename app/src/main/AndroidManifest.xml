@@ -10,11 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SelectionActivity">
         <activity
-            android:label="Display"
+            android:label="@string/display_name"
             android:name=".DisplayActivity"
             android:exported="true" />
         <activity
-            android:label="Fruits"
+            android:label="@string/select_name"
             android:name=".SelectActivity"
             android:exported="true">
             <intent-filter>

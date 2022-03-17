@@ -1,5 +1,8 @@
 <resources>
-    <string name="app_name">Fruits Image Viewer App</string>
+    <string name="app_name">Fruits Image App</string>
+    <string name="select_name">Select</string>
+    <string name="display_name">Display</string>
+    <string name= "hint">Click an image above to view</string>
     <string-array name="Fruits">
         <item>watermelon</item>
         <item>dragonfruit</item>

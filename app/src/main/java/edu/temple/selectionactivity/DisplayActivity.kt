@@ -8,7 +8,6 @@ import android.widget.TextView
 
 class DisplayActivity() : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
-        supportActionBar?.title = "Display"
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_display)
         val imageObject: ImageObject = intent.extras!!.get("extra_image") as ImageObject
