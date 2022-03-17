@@ -22,6 +22,7 @@ val images: IntArray = intArrayOf(
 )
 class SelectActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+        supportActionBar?.title = "Selector"
         super.onCreate(savedInstanceState)
         setContentView(R.layout.`activity_select`)
         var names = resources.getStringArray(R.array.Fruits);

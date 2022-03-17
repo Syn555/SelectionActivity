@@ -15,16 +15,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.66" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/displayTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="36dp"
         android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/displayImageView"
         app:layout_constraintEnd_toEndOf="@+id/displayImageView"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="@+id/displayImageView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
